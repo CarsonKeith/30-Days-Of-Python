@@ -1,0 +1,51 @@
+list1 = [10 , 11, 'buddy', 'hi']
+a = 10
+print(a not in list1)
+
+print(not False)
+
+age = 18
+height_ft = 6.3
+comp = 1 + 4j
+base = int(input('Enter a base value: '))
+height = int(input('Enter a height value: '))
+area = base * height * .5
+print('The area of the triangle is', area)
+side_a, side_b, side_c = int(input('Enter side a: ')), int(input('Enter side b: ')), int(input('Enter side c: '))
+perimeter = side_a + side_b + side_c
+print('The perimeter of the triangle is....', perimeter)
+length_rec, width_rec = int(input('Give the length of a rectangle: ')), int(input('Give the width of a rectangle: '))
+area_rec = length_rec * width_rec
+print('The area of the rectangle is....', area_rec)
+perim_rec = 2 * (length_rec + width_rec)
+print('The perimeter of the rectangle is...', perim_rec )
+x1 = 2
+x2 = 6
+y1 = 2
+y2 = 10
+slope_calc = (y2 -y1) / (x2 - x1)
+print(slope_calc)
+print(f'the slope from task 8 is {y[1]} which is the same as the slope from task 9 which is {slope_calc}')
+listuno = [10,11,'happy']
+print(10 in listuno)
+print(len('python') == len('dragon'))
+print('on' in 'python' and 'dragon')
+sentence = 'I hope this course is not full of jargon'
+print('jargon' in sentence)
+python_len = str(float(len('python')))
+num5 = 4
+print(num5 / 2 == 0)
+print( (7 // 3) == int(2.7) )
+print(type('10') == type(10))
+print(int('9.8') == 10 )
+
+hours = int(input('How many hours do you work a week?: '))
+rph = int(input('How much do you make per hour?: '))
+weekly_pay = hours * rph
+print('Your total pay this week will be', weekly_pay)
+age = int(input('How old are you?: '))
+age_seconds = age * 31536000
+print('You are', age_seconds, 'old!')
+
+print('1'* 5)
+print('2' + '1' + '2' + '4'+ '8')
