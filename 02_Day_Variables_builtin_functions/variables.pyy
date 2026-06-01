@@ -1,1 +1,29 @@
-
+#Day 2: 30 days of python programming
+first_name = 'Carson'
+last_name = 'Buck'
+full_name ='Carson Buck'
+country = 'United States'
+city = 'Plymouth'
+age = 18
+year = 2026
+is_married = False
+is_true = True
+is_light_on = False
+print(len(first_name))
+print(len(last_name))
+print(f'My first name is {len(first_name)} and my last name is {len(last_name)} letters long')
+num_one = 5 
+num_two = 4
+variable_total = num_one + num_two
+variable_diff = num_one - num_two
+variable_product = num_one * num_two
+variable_division = num_one / num_two
+variable_remainder = num_one % num_two
+variable_exp = num_one ** num_two
+variablefloor_division = num_one // num_two
+import math
+radius = 30
+pi = math.pi
+area_of_circle = radius ** 2 * pi
+circum_of_circle = 2 * pi * radius
+int(input('Give a value for a radius: '))
